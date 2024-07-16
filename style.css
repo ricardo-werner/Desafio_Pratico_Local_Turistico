@@ -15,6 +15,8 @@
     --margin40: 2.5rem auto;
     --margin64: 4rem auto;
     --border-radius: 1.5rem;
+    --img-width: 70rem;
+    --img-height: 25rem;
 }
 
 body {
@@ -78,8 +80,8 @@ body {
 #container-page img {
     display: flex;
     align-items: center;
-    width: 100%;
-    height: auto;
+    width: var(--img-width);
+    height: var(--img-height);
     border-radius: var(--border-radius);
 }
 

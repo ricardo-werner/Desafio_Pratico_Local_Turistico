@@ -137,31 +137,31 @@ body {
 
 #container-itens .item-content {
     font-weight: var(--font-weight-bold);
-    margin-bottom: 2rem; /* Espaçamento entre os itens */
+    margin-bottom: 2rem; 
 }
 
 #container-itens .number {
     counter-increment: item-counter;
-    content: counter(item-counter) ". "; /* Adiciona o numeral decimal */
+    content: counter(item-counter) ". "; 
     font-weight: var(--font-weight-bold);
-    display: inline-block; /* Alinha o numeral na mesma linha */
-    margin-right: 0.5rem; /* Espaçamento entre o numeral e o título */
+    display: inline-block; 
+    margin-right: 0.5rem; 
 }
 
 #container-itens .title {
-    display: inline; /* Alinha o título na mesma linha */
-    font-weight: var(--font-weight-bold); /* Texto em negrito para o título */
+    display: inline; 
+    font-weight: var(--font-weight-bold); 
 }
 
 #container-itens .good-for {
     display: flex;
     flex-direction:column;
-    flex-wrap: wrap; /* Quebra a linha dos itens */
-    gap: 0.5rem; /* Espaçamento entre os itens */
-    margin-top: 0.5rem; /* Espaçamento entre os itens */
-    font-weight: var(--font-weight-bold); /* Texto normal para a descrição */
+    flex-wrap: wrap; 
+    gap: 0.5rem; 
+    margin-top: 0.5rem;
+    font-weight: var(--font-weight-bold); 
     font-size: 1rem;
-    margin-left: 2rem; /* Espaçamento à esquerda */
+    margin-left: 2rem; 
 }
 
 #container-itens spam {
@@ -177,7 +177,7 @@ body {
 }
 
 #container-itens .description {
-    font-weight: var(--font-weight-normal); /* Texto normal para a descrição */
+    font-weight: var(--font-weight-normal);
     font-size: 1rem;
 }
 
@@ -199,16 +199,17 @@ body {
 
 #container-footer {
     display: flex;
-    justify-content: space-around; /* Espaça os itens */
-    width:75rem;
+    width: 75rem;
     padding: 1rem;
-    margin-top: var(--margin64);
     border-top: 1px solid var(--quinquenary-color);
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3.5rem;
 }
 
 #container-footer .copy, 
 #container-footer .dev {
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: var(--tertiary-color);
 }
 
@@ -222,4 +223,34 @@ body {
 
 #container-footer .back-to-top i {
     margin-right: 0.5rem;
+}
+
+#container-footer .back-to-top:hover {
+    color: var(--quaternary-color);
+}
+
+#container-footer #media-footer {
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    margin: 1rem 0rem 0.5rem 0rem;
+}
+
+#container-footer #media-footer img{
+   width: 2.5rem;
+   height: 2.5rem;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+
+#container-footer #media-footer a {
+    cursor: pointer;
+}
+
+#container-footer #media-footer a:hover {
+    color: var(--quaternary-color);
 }

@@ -130,10 +130,6 @@ body {
     padding: 2rem 0;
 }
 
-#container-destinations spam {
-    line-height: 1rem;
-    font-size: 1rem;
-}
 
 #container-itens {
     counter-reset: item-counter;
@@ -169,8 +165,17 @@ body {
     margin-left: 2rem; /* Espaçamento à esquerda */
 }
 
+#container-itens spam {
+    line-height: 1rem;
+    font-size: 1rem;
+}
 
-
+#container-itens spam::before {
+    margin-left: 0.5rem;
+    content: "•";
+    margin-right: 0.5rem;
+    color: var(--tertiary-color);
+}
 
 #container-itens .description {
     font-weight: var(--font-weight-normal); /* Texto normal para a descrição */

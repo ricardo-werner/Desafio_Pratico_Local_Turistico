@@ -85,9 +85,15 @@ https://github.com/ricardo-werner/Rocketseat_FullStack_Desafio_Pratico_Local_Tur
 ```
 - Rode o projeto
 
-```bash
-ativar o GO LIVE no VSCode
-```
+Rode o aplicativo na web ativando o Go Live no VS Code (click em cima do go live para ativar):
+<p align="center">
+  <img width="480" src="assets/GoLive.jpg"
+</p>
+
+<p align="center">
+  <img width="480" src="assets/GoLiveOn.jpg"
+</p>
+
 
 ## Autor
 

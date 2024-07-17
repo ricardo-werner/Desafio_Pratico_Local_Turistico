@@ -87,16 +87,16 @@ https://github.com/ricardo-werner/Rocketseat_FullStack_Desafio_Pratico_Local_Tur
 
 Rode o aplicativo na web ativando o Go Live no VS Code (click em cima do go live para ativar):
 <p align="center">
-  <img width="480" src="assets/GoLive.jpg"
+  <img width="420" src="assets/GoLive.jpg"
 </p>
 
 <p align="center">
-  <img width="480" src="assets/GoLiveOn.jpg"
+  <img width="420" src="assets/GoLiveOn.jpg"
 </p>
 
 
 ## Autor
 
 Ricardo Werner
-Dev Full-Stack em desenvolvimento - 
+Dev Full-Stack em desenvolvimento
 Rocketseat_2024

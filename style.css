@@ -83,6 +83,7 @@ body {
     width: var(--img-width);
     height: var(--img-height);
     border-radius: var(--border-radius);
+    margin: 2rem 0;
 }
 
 #container-page .home-about {
@@ -130,15 +131,50 @@ body {
 }
 
 #container-destinations spam {
+    line-height: 1rem;
     font-size: 1rem;
-    line-height: 1.5rem;
-    color: var(--tertiary-color);
 }
 
-#container-destinations #contatiner-itens spam {
+#container-itens {
+    counter-reset: item-counter;
+    margin: 2rem 0;
+}
+
+#container-itens .item-content {
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 2rem; /* Espaçamento entre os itens */
+}
+
+#container-itens .number {
+    counter-increment: item-counter;
+    content: counter(item-counter) ". "; /* Adiciona o numeral decimal */
+    font-weight: var(--font-weight-bold);
+    display: inline-block; /* Alinha o numeral na mesma linha */
+    margin-right: 0.5rem; /* Espaçamento entre o numeral e o título */
+}
+
+#container-itens .title {
+    display: inline; /* Alinha o título na mesma linha */
+    font-weight: var(--font-weight-bold); /* Texto em negrito para o título */
+}
+
+#container-itens .good-for {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap; /* Quebra a linha dos itens */
+    gap: 0.5rem; /* Espaçamento entre os itens */
+    margin-top: 0.5rem; /* Espaçamento entre os itens */
+    font-weight: var(--font-weight-bold); /* Texto normal para a descrição */
     font-size: 1rem;
-    line-height: 1.5rem;
-    color: var(--tertiary-color);
+    margin-left: 2rem; /* Espaçamento à esquerda */
+}
+
+
+
+
+#container-itens .description {
+    font-weight: var(--font-weight-normal); /* Texto normal para a descrição */
+    font-size: 1rem;
 }
 
 #container-footer {

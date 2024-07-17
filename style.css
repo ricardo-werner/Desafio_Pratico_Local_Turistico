@@ -98,8 +98,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 75rem;
-  padding: 1.5rem;
-  margin: var(--margin40);  
+  padding: 1.5rem; 
 }
 
 #container-drafts h2 {
@@ -107,19 +106,19 @@ body {
     font-weight: var(--font-weight-bold);
     line-height: 1rem;
     color: var(--tertiary-color);
-    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 #container-drafts p {
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--tertiary-color);
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
 }
 
 #container-destinations {
     max-width: 75rem;
-    padding: 1.5rem; 
+    padding: 1rem; 
   }
 
 #container-destinations h2 {
@@ -127,7 +126,7 @@ body {
     font-weight: var(--font-weight-bold);
     line-height: 1rem;
     color: var(--tertiary-color);
-    padding: 2rem 0;
+    margin-bottom: 2rem;
 }
 
 
@@ -180,6 +179,22 @@ body {
 #container-itens .description {
     font-weight: var(--font-weight-normal); /* Texto normal para a descrição */
     font-size: 1rem;
+}
+
+#container-closure {
+    display: flex;
+    flex-direction: column;
+    max-width: 75rem;
+    border-top: 0.5rem solid var(--quinquenary-color);
+    margin: var(--margin40);
+}
+
+#container-closure h2 {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 1rem;
+    color: var(--tertiary-color);
+    padding-top: 2rem;
 }
 
 #container-footer {

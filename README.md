@@ -15,22 +15,22 @@ Status - Concluído
 
 Tela inicial da landing page
 <p align="center">
-  <img width="480" src="assets/tela.PNG">
+  <img width="480" src="assets/to_readme/tela.PNG">
 </p>
 
 Tela História da landing page
 <p align="center">
-  <img width="480" src="assets/tela01.PNG">
+  <img width="480" src="assets/to_readme/tela01.PNG">
 </p>
 
 Tela Destinos da landing page
 <p align="center">
-  <img width="480" src="assets/tela02.PNG">
+  <img width="480" src="assets/to_readme/tela02.PNG">
 </p>
 
 Tela Fechamento e Contato da landing page
 <p align="center">
-  <img width="480" src="assets/tela03.PNG">
+  <img width="480" src="assets/to_readme/tela03.PNG">
 </p>
 
 
@@ -87,16 +87,16 @@ https://github.com/ricardo-werner/Rocketseat_FullStack_Desafio_Pratico_Local_Tur
 
 Rode o aplicativo na web ativando o Go Live no VS Code (click em cima do go live para ativar):
 <p align="center">
-  <img width="320" src="assets/GoLive.jpg"
+  <img width="320" src="assets/to_readme/GoLive.jpg"
 </p>
 
 <p align="center">
-  <img width="320" src="assets/GoLiveOn.jpg"
+  <img width="320" src="assets/to_readme/GoLiveOn.jpg"
 </p>
 
 
 ## Autor
 
 Ricardo Werner
-Dev Full-Stack em desenvolvimento
+Dev Full-Stack em desenvolvimento <br>
 Rocketseat_2024

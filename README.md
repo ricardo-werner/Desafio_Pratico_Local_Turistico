@@ -3,6 +3,10 @@
 
 #### Criação de uma landing page de um local turistico em HTML e CSS
 
+### Deploy do código no GituHub Pages (acesso como se fossse um página web)
+
+https://ricardo-werner.github.io/Rocketseat_FullStack_Desafio_Pratico_Local_Turistico/
+
 ### 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/ricardo-werner)
 
